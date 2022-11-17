@@ -1,8 +1,17 @@
 export class Cookie {
+    /**
+     * Declare the name for the cookie
+     * @param cookieName The name of the cookie object
+     */
     constructor(cookieName) {
         this.cookieName = cookieName
     }
 
+    /**
+     * Setting the cookie
+     * @param value Set's the value for the cookie
+     * @param time The expiration time: 1 = 1 Day, .5 = 1/2 Day
+     */
     set(value, time) {
         let t = new Date();
         if (time === undefined) {
@@ -15,6 +24,10 @@ export class Cookie {
         document.cookie = cookieStatement + ";expires=" + t + ";path=/"
     }
 
+    /**
+     * Get's the cookie value
+     * @returns {string} The value of the cookie
+     */
     get() {
         let name = this.cookieName + "=";
         let decodedCookie = decodeURIComponent(document.cookie);
