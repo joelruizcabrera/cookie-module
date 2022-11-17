@@ -1,0 +1,24 @@
+{
+  "name": "cookie-module",
+  "version": "1.0.0",
+  "description": "Cookie Handler for JavaScript, NodeJS and VueJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joelruizcabrera/cookie-module.git"
+  },
+  "keywords": [
+    "Cookie",
+    "Module",
+    "a"
+  ],
+  "author": "Joel Ruiz Cabrera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joelruizcabrera/cookie-module/issues"
+  },
+  "homepage": "https://github.com/joelruizcabrera/cookie-module#readme"
+}
