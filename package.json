@@ -2,7 +2,7 @@
   "name": "cookie-module",
   "version": "1.0.0",
   "description": "Cookie Handler for JavaScript, NodeJS and VueJS",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
